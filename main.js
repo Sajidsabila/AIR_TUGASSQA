@@ -18,6 +18,7 @@ if(jumlah  <= 10 ){
 }else{
     const harga = jumlah * 10000;
 }
+const form = document.querySelector('.air');
 
 form.addEventListener('submit', (e) =>{
     e.preventDefault();
